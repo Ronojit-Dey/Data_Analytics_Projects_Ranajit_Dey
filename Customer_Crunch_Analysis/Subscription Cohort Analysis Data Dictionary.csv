@@ -1,0 +1,7 @@
+﻿Field,Description
+customer_id,Unique customer identification number representing an individual customer
+created_date,Date the customer subscription was created (MM/DD/YYYY)
+canceled_date,Date the customer subscription was canceled (MM/DD/YYYY). If value is blank then the subscription has not been canceled
+subscription_cost,Price of the subscription in USD
+subscription_interval,Measurement of time between billing occurrences for a recurring billing subscription
+was_subscription_paid,Indicates if payment was successfully collected for a subscription
